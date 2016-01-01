@@ -12,7 +12,6 @@
 		return typeof val === 'function';
 	}
 
-	// borrowed from MOUT
 	function decodeQueryString() {
 		var query_string = {},
 			query = view.split('?')[1];
